@@ -74,7 +74,7 @@ playlist1noAds = [ item for item in playlist1 if item.__class__ != Advert ]
 
 print("playlist1noAds = %s" % playlist1noAds)
 
-shortItemLenghts1 = "todo" # TASK 6.2-b -- replace "todo" by a list comprehension
+shortItemLenghts1 = [item for item in playlist1 if item.length_secs < 20]
 
 print("shortItemLenghts1 = %s" % shortItemLenghts1)
 
