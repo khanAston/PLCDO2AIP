@@ -1,6 +1,8 @@
 class Circle {
-
+//wdwdd
+//edwdwdwdw
   public static void main(String[] args) {
+    System.out.println(">>> TEST PRINT: repo update check <<<");
     int size = 15; // Integer.parseInt(args[0]);
     Circle c = new Circle(size);
     for (int i = 1; i <= size; i++ ) {
