@@ -102,6 +102,11 @@ public class PlaylistColls {
         System.out.printf("playlist1noAds_streams = %s\n", playlist1noAds_streams);
 
         List<Float> shortItemLengths1 = new ArrayList<>();
+        for (Item item : playlist1) {
+            if (item.length_secs < 20) {
+                shortItemLengths1.add(item.length_secs);
+            }
+        }
         // TASK 6-1(b)...
 
 
