@@ -1,6 +1,7 @@
 # Programming Language Concepts code for Aston University students
 ```diff
-+ This repo contains practical tasks related to Aston University's ONLINE module DO2AIP Introduction to Artificial Intelligence and Programming Language Concepts
++ This repo contains practical tasks related to Aston University's ONLINE module
+  DO2AIP Introduction to Artificial Intelligence and Programming Language Concepts
 ```
 
 ## Editing and running the code via a web browser
